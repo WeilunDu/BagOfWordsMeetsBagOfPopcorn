@@ -6,7 +6,14 @@ that you have installed
 sklearn, gensim, beautifulSoup, cython
 
 python setup.py build_ext --inplace #to build the c-extension
+
+
 python docVecTrain.py #to build the doc2vec models and classifier, it will take roughly 30 mins
+
+
+
+
+
 python app.py# to run the web app
 
 Due to the limited timing, I didn't have a front-end.
